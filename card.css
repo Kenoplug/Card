@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+}
+
+body {
+				font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+				width: 100%;
+				min-height: 100vh;
+				display: grid;
+				place-item: center;
+				padding: 1rem;
+				background-color: #CDC9A5;
+}
+
+.container {
+				max-width: 450px;
+				width: 100%;
+				padding: 1rem;
+				background-color: white;
+				border-radius: 1rem;
+}
+
+.heading {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+}
+
+.card {
+				display: flex;
+				margin-top: 20px;
+				align-items: center;
+}
+
+.card, .amount {
+				margin-left: auto;
+}
+
+.img-wrapper, svg {
+				width: 50px;
+				height: 50px;
+}
+
+.description {
+				margin-left: 8px;
+}
+
+a {
+				text-decoration: none;
+				color: #78716C;
+}
+.view {
+		color: #78716C;		
+}
+
+.deposit, .amount {
+				color: #22C55E;
+				font-weight: 500;
+}
+
+.withdraw {
+				color: #DC2626;
+}
+
+.withdraw, .deposit, .amount {
+				font-size: 0.8rem;
+}
+
